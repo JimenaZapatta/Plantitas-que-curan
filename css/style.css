@@ -16,6 +16,7 @@ body{
 }
 
 header{
+    
 
   display: flex;  
   background-color: #e6cbfa;
@@ -146,25 +147,6 @@ div .carousel-item img{
 }
 
 
-
-.Aprender {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 15px;
-    text-decoration: solid;
-    text-align:justify;
-    padding: 100px;
- 
-}
-
-
-.Abuelaflores{
-    justify-content: center;
-    width: 2em;
-    height: 1em;
-    align-items: center;
-    
-    
-}
 .imgportada{
     margin: 50px;
     display: flex;
@@ -302,3 +284,45 @@ div .carousel-item img{
         
       }
     
+/* Homenaje.html*/
+
+.body-Homenaje{
+    padding: 0;
+    margin: 0;
+    background-color: #f4f1f7;
+}
+
+.homenaje{
+    padding: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-decoration: solid;
+    text-align:justify;
+    white-space: pre-line;
+}
+
+      .Aprender {
+        padding: 25px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: medium;
+        text-decoration: solid;
+        text-align:justify;
+        white-space: pre-line;
+       
+     
+    }
+       .InicioHomenaje{
+        margin:25px;
+        border-radius: 25px;
+        border: #803CB0 solid;
+       
+       
+       } 
+       .items-abuelas1{
+        float: right;
+       }
+       .items-abuelas2{
+        float: left;
+        border-radius: 25px;
+        margin: 30px;
+       }
