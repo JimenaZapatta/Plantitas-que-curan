@@ -173,7 +173,7 @@ div .carousel-item img{
     grid-template-rows: repeat(2,1fr);
     /*border: #803CB0 solid 3px;*/
     gap: 8px;
-    text-wrap: 1em;
+    
  
 }
 .grid-items1{
@@ -186,6 +186,7 @@ div .carousel-item img{
     border-top-right-radius: 0.5em 1em;
     background-image: url(../imagenes/FondoHomenaje.jpg);
     text-wrap: 2px;
+    
 }
 .albaMirtha{
     font-style: italic;
@@ -225,6 +226,7 @@ div .carousel-item img{
     border-top-right-radius: 0.5em 1em;
     background-image: url(../imagenes/FondoHomenaje.jpg);
     text-wrap: 2px;
+    
 }
 
 .pgrid-itemes1{
@@ -242,6 +244,7 @@ div .carousel-item img{
     grid-column: 2/3;
     grid-row: 1/3;
     text-size-adjust: 2em;
+    
 
 }
 .grid-items3{
@@ -251,6 +254,7 @@ div .carousel-item img{
     text-size-adjust: 2em;
     white-space: pre-line;
     text-align: justify ;
+    
 }
 
 
