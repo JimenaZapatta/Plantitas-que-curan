@@ -39,6 +39,7 @@ header .logo img{
 
 .logo :hover{
   margin-bottom: 25px;
+  transition: 1s;
 }
 nav{
     
@@ -67,6 +68,7 @@ ul a{
 a:hover{
     color:rgb(107, 91, 91);
     margin: 25px;
+    transition: 1s;
     
 }
 
@@ -110,6 +112,7 @@ h1:hover{
 .bienvenida :hover{
     margin: 15px;
     color: #803CB0;
+    transition: 1s;
 }
 
 /*tamaño carousel*/
@@ -168,17 +171,18 @@ div .carousel-item img{
       /* grid conteiner*/
 
 .grid-conteiner{
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
-    /*border: #803CB0 solid 3px;*/
-    gap: 8px;
+    display:flex block;
+   /* grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+    border: #803CB0 solid 3px;*/
+    gap: 2px;
+    text-wrap: 2px;
     
  
 }
 .grid-items1{
-    grid-column: 1/2;
-    grid-row: 1/3;
+    /*grid-column: 1/2;
+    grid-row: 1/2;*/
     padding: 10px;
     text-size-adjust: 2em;
     border: #803CB0 solid ;
@@ -186,6 +190,8 @@ div .carousel-item img{
     border-top-right-radius: 0.5em 1em;
     background-image: url(../imagenes/FondoHomenaje.jpg);
     text-wrap: 2px;
+    margin: 2px;
+    
     
 }
 .albaMirtha{
@@ -202,14 +208,20 @@ div .carousel-item img{
 }
 
 .grid-items2{
-    grid-column: 1/2;
-    grid-row: 1/3;
+    /*grid-column: 1/2;
+    grid-row: 1/2;*/
     padding: 10px;
     text-size-adjust: 2em;
     border: #803CB0 solid ;
     border-top-right-radius: 0.5em 1em;
     background-image: url(../imagenes/FondoHomenaje.jpg);
+    white-space: pre-line;
+    text-align: center ;
+    text-size-adjust: 2em;
     text-wrap: 2px;
+    margin: 2px;
+  
+
 }
 
 .ac{
@@ -218,16 +230,21 @@ div .carousel-item img{
 }
 
 .grid-items3{
-    grid-column: 1/2;
-    grid-row: 1/3;
+    /*grid-column: 1/2;
+    grid-row: 1/2;*/
     padding: 10px;
     text-size-adjust: 2em;
     border: #803CB0 solid ;
     border-top-right-radius: 0.5em 1em;
     background-image: url(../imagenes/FondoHomenaje.jpg);
     text-wrap: 2px;
-    
+    white-space: pre-line;
+    text-align: center ;
+    text-wrap: 2px;
+    margin: 2px;
+   
 }
+
 
 .pgrid-itemes1{
     padding: 10px;
@@ -236,28 +253,30 @@ div .carousel-item img{
     padding: 10px;
     text-size-adjust: 2em;
     text-decoration: none;
+
+    
 }
-.grid-items2{
+.pgrid-itemes2{
     padding: 10px;
     white-space: pre-line;
     text-align: justify ;
-    grid-column: 2/3;
-    grid-row: 1/3;
-    text-size-adjust: 2em;
-    
-
-}
-.grid-items3{
-    grid-column: 3/4;
-    grid-row: 1/3;
     padding: 10px;
     text-size-adjust: 2em;
-    white-space: pre-line;
-    text-align: justify ;
+    text-decoration: none;
+  
     
 }
 
-
+.pgrid-itemes3{
+    padding: 10px;
+    white-space: pre-line;
+    text-align: justify ;
+    padding: 10px;
+    text-size-adjust: 2em;
+    text-decoration: none;
+  
+    
+}
 
 /*footer*/
 
