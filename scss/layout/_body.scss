@@ -1,0 +1,14 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 1 fr;
+    grid-template-rows: 6 repeat(1fr);
+    grid-template-areas: 
+     
+    ".logo" "main"
+    "nav" "nav"
+    ".carouselExampleAutoplaying" ".carouselExampleAutoplaying"
+    ".bienvenida" ".bienvenida"
+
+    ;
+    border: 2px solid blue;
+    }
