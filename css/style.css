@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
 body {
   display: grid;
   grid-template-columns: minmax(0.5fr 1fr) minmax(0.5fr 1fr);
   grid-template-rows: 6 repeat(1fr);
   grid-template-areas: ".logo" "main" "nav" "nav" ".carouselExampleAutoplaying" ".carouselExampleAutoplaying" ".bienvenida" ".bienvenida" "grid-items1" "." "grid-items2" "." "grid-items2" "." "footer" "footer";
-  padding: 5px;
+  padding: 0px;
 }
 
 * {
@@ -13,11 +16,23 @@ body {
 }
 
 header {
-  display: block flex;
+  display: flex;
+  background: rgb(120, 9, 121);
+  background: linear-gradient(90deg, rgba(120, 9, 121, 0.868785014) 51%, rgb(215, 255, 0) 96%);
+}
+header .logo {
+  align-items: left;
+  justify-items: left;
 }
 header main {
   align-items: center;
-  text-align: center;
+  padding: 10px;
+  color: aliceblue;
+  margin-left: 20px;
+}
+header main h1 {
+  font-family: agbalumo;
+  font-size: xxx-large;
 }
 
 /*# sourceMappingURL=style.css.map */
