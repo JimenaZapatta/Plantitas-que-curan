@@ -1,2 +1,5 @@
-recetas.html
-variedades.html
+# Archivos ignorados 
+package-lock.json
+package.json
+node_modules
+
