@@ -80,6 +80,7 @@ nav .menu a:hover {
 
 .bienvenida {
   justify-content: center;
+  background-color: rgb(244, 226, 248);
 }
 .bienvenida h2 {
   text-align: center;
@@ -88,14 +89,13 @@ nav .menu a:hover {
   padding-top: 20px;
   font-size: 40px;
   font-weight: bold;
-  background: rgb(180, 138, 58);
-  background: linear-gradient(90deg, rgba(180, 138, 58, 0.1881127451) 0%, rgba(253, 235, 29, 0.3477766106) 40%, rgb(252, 176, 69) 100%);
 }
 .bienvenida h3 {
   text-align: center;
   align-items: center;
-  font-family: releway;
-  font-size: 40px;
+  font-size: 20px;
+  font-family: Raleway;
+  font-weight: lighter bold;
 }
 
 /*# sourceMappingURL=style.css.map */

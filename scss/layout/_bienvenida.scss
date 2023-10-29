@@ -1,6 +1,6 @@
 .bienvenida{
     justify-content: center;
-    
+  background-color:rgb(244, 226, 248)  ;
 
 
     h2{
@@ -9,9 +9,8 @@
        font-family:Raleway;
        padding-top: 20px;
         font-size: 40px;
-        font-weight:bold;
-        background: rgb(180,138,58);
-        background: linear-gradient(90deg, rgba(180,138,58,0.1881127450980392) 0%, rgba(253,235,29,0.3477766106442577) 40%, rgba(252,176,69,1) 100%);
+        font-weight: bold;
+        
                    
 
 
@@ -20,8 +19,10 @@
     h3{
         text-align: center;
         align-items: center;
-        font-family: releway;
-        font-size: 40px;
+        font-size: 20px;
+        font-family:Raleway;
+        font-weight: lighter bold;
+
         
     }
 }
