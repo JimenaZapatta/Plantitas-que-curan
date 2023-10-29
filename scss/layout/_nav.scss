@@ -1,0 +1,33 @@
+nav {
+    display: flexbox;
+    justify-content: center;
+    background-color: #F6CF2E; 
+    align-items: flex-end;
+    
+    
+.menu{   
+    margin-left: 100px;
+    font-weight: bold;
+a{ 
+
+    text-decoration: none;  
+    align-items: center;
+    margin: 15px;
+    position: center;
+    font-family: raleway;
+    color: rgb(7, 4, 27);
+    font-style: oblique;
+    justify-content: center;
+    font-weight: bold;
+    
+
+    &:hover{ margin: 5px;
+    transition: 1s;
+    }
+    }
+}
+}
+
+
+
+

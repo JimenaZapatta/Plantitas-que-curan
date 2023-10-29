@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap");
 body {
   display: grid;
   grid-template-columns: minmax(0.5fr 1fr) minmax(0.5fr 1fr);
@@ -18,21 +20,82 @@ body {
 header {
   display: flex;
   background: rgb(120, 9, 121);
-  background: linear-gradient(90deg, rgba(120, 9, 121, 0.868785014) 51%, rgb(215, 255, 0) 96%);
+  background: linear-gradient(90deg, rgba(120, 9, 121, 0.868785014) 51%, rgb(163, 180, 67) 96%);
 }
 header .logo {
   align-items: left;
   justify-items: left;
 }
+header .logo:hover {
+  margin: 5px;
+  transition: all 1s;
+}
 header main {
+  justify-content: center;
   align-items: center;
   padding: 10px;
-  color: aliceblue;
-  margin-left: 20px;
+  color: white;
+  margin-left: 30px;
 }
 header main h1 {
-  font-family: agbalumo;
-  font-size: xxx-large;
+  font-family: Alkatra;
+  font-size: 40px;
+  justify-items: center;
+}
+header main h1:hover {
+  font-size: 25px;
+  margin-right: 10px;
+  transition: 10s;
+}
+
+nav {
+  display: flexbox;
+  justify-content: center;
+  background-color: #F6CF2E;
+  align-items: flex-end;
+}
+nav .menu {
+  margin-left: 100px;
+  font-weight: bold;
+}
+nav .menu a {
+  text-decoration: none;
+  align-items: center;
+  margin: 15px;
+  position: center;
+  font-family: raleway;
+  color: rgb(7, 4, 27);
+  font-style: oblique;
+  justify-content: center;
+  font-weight: bold;
+}
+nav .menu a:hover {
+  margin: 5px;
+  transition: 1s;
+}
+
+.d-block {
+  height: 490px;
+}
+
+.bienvenida {
+  justify-content: center;
+}
+.bienvenida h2 {
+  text-align: center;
+  align-items: center;
+  font-family: Raleway;
+  padding-top: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  background: rgb(180, 138, 58);
+  background: linear-gradient(90deg, rgba(180, 138, 58, 0.1881127451) 0%, rgba(253, 235, 29, 0.3477766106) 40%, rgb(252, 176, 69) 100%);
+}
+.bienvenida h3 {
+  text-align: center;
+  align-items: center;
+  font-family: releway;
+  font-size: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */
