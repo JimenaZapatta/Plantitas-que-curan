@@ -2,11 +2,15 @@ header{
     display:flex;
     
     background: rgb(120,9,121);
-    background: linear-gradient(90deg, rgba(120,9,121,0.8687850140056023) 51%, rgba(215,255,0,1) 96%);
+    background: linear-gradient(90deg, rgba(120,9,121,0.8687850140056023) 51%, rgb(244, 253, 192) 96%);
     
     .logo{
         align-items:left;
         justify-items: left;
+
+        &:hover{
+            margin: 5px;
+        }
     }
     
 main{
