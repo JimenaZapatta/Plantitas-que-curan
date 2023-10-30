@@ -1,14 +1,60 @@
 .Descripción{
-    display: flexbox;
+    
+
 
     .descrip1{
-        border: 2px solid chartreuse;
+        border: 2px solid rgb(132, 0, 255);
+        margin: 5px;
+        border-top-right-radius: 30%;
+        text-wrap: 100px;
+        padding: 45px;
+      background-image: url(../imagenes/fondohomenaje.jpg);
+      .desc1{
+        word-break: break-word;
+        line-break: normal;
+        hyphens: auto;
+        overflow-wrap: break-word;
+        text-indent: 2;
+.albaMirtha{ 
+    color: rgb(235, 136, 136);
+    font-weight: bold;
+}
+
+.amor{ 
+    color: rgb(247, 135, 135);
+    font-weight: bold;
+}
+}
+     
+
     }
     .descrip2{
-        border: 2px solid chartreuse;
+        border: 2px solid rgb(132, 0, 255);
+        margin: 5px;
+        border-top-right-radius: 30%;
+        text-wrap: 100px;
+        padding: 45px;
+        margin-left: auto;
+        background-image: url(../imagenes/fondohomenaje.jpg);
+     
+     
+     
+
     }
     .descrip3{
-        border: 2px solid chartreuse;
-    }
+        border: 2px solid rgb(132, 0, 255);
+        margin: 5px;
+        border-top-right-radius: 30%;
+        text-wrap: 100px;
+        padding: 45px;
+        background-image: url(../imagenes/fondohomenaje.jpg);
+        
+      
+     
+
+    }    
+
+
+
 
 }

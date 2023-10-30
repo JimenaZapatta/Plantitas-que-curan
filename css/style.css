@@ -8,7 +8,7 @@ body {
   display: grid;
   grid-template-columns: minmax(0.5fr 1fr) minmax(0.5fr 1fr);
   grid-template-rows: 6 repeat(1fr);
-  grid-template-areas: ".logo" "main" "nav" "nav" ".carouselExampleAutoplaying" ".carouselExampleAutoplaying" ".bienvenida" ".bienvenida" "grid-items1" "." "grid-items2" "." "grid-items2" "." "footer" "footer";
+  grid-template-areas: ".logo" "main" "nav" "nav" ".carouselExampleAutoplaying" ".carouselExampleAutoplaying" ".bienvenida" ".bienvenida" ".descrip3" "." ".descrip2" "." ".descrip1" "." "footer" "footer";
   padding: 0px;
 }
 
@@ -99,17 +99,65 @@ nav .menu a:hover {
   font-weight: bold;
 }
 
-.Descripción {
-  display: flexbox;
-}
 .Descripción .descrip1 {
-  border: 2px solid chartreuse;
+  border: 2px solid rgb(132, 0, 255);
+  margin: 5px;
+  border-top-right-radius: 30%;
+  text-wrap: 100px;
+  padding: 45px;
+  background-image: url(../imagenes/fondohomenaje.jpg);
+}
+.Descripción .descrip1 .desc1 {
+  word-break: break-word;
+  line-break: normal;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  text-indent: 2;
+}
+.Descripción .descrip1 .desc1 .albaMirtha {
+  color: rgb(235, 136, 136);
+  font-weight: bold;
+}
+.Descripción .descrip1 .desc1 .amor {
+  color: rgb(247, 135, 135);
+  font-weight: bold;
 }
 .Descripción .descrip2 {
-  border: 2px solid chartreuse;
+  border: 2px solid rgb(132, 0, 255);
+  margin: 5px;
+  border-top-right-radius: 30%;
+  text-wrap: 100px;
+  padding: 45px;
+  margin-left: auto;
+  background-image: url(../imagenes/fondohomenaje.jpg);
 }
 .Descripción .descrip3 {
-  border: 2px solid chartreuse;
+  border: 2px solid rgb(132, 0, 255);
+  margin: 5px;
+  border-top-right-radius: 30%;
+  text-wrap: 100px;
+  padding: 45px;
+  background-image: url(../imagenes/fondohomenaje.jpg);
+}
+
+footer {
+  display: flex;
+  border-top: 2px solid blue;
+  background: rgb(67, 195, 34);
+  background: linear-gradient(52deg, rgb(67, 195, 34) 0%, rgba(179, 166, 41, 0.6474964986) 60%, rgb(253, 146, 45) 100%);
+  margin-top: 30px;
+}
+footer .encontranos {
+  font-size: 30px;
+  font-family: Raleway;
+  font-weight: bold;
+}
+footer .footerimg {
+  margin: 10px;
+  justify-content: end;
+  text-align: end;
+  justify-items: end;
+  margin-top: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */

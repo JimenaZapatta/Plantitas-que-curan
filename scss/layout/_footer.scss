@@ -1,0 +1,26 @@
+footer{
+    display: flex;
+    border-top: 2px solid blue;
+    background: rgb(67,195,34);
+    background: linear-gradient(52deg, rgba(67,195,34,1) 0%, rgba(179,166,41,0.6474964985994398) 60%, rgba(253,146,45,1) 100%);
+    margin-top: 30px;
+    
+
+    .encontranos{
+     font-size: 30px;
+     font-family:Raleway;
+     font-weight:bold;
+
+
+    }
+    .footerimg{
+        margin:10px;
+        justify-content: end;
+        text-align: end;
+        justify-items: end;
+        margin-top: 100px;
+
+
+        
+    }
+}    
