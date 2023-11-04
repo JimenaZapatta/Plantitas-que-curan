@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap");
 body {
   display: grid;
-  grid-template-columns: minmax(0.5fr 1fr) minmax(0.5fr 1fr);
+  grid-template-columns: minmax(0.3fr 1fr) minmax(0.5fr 1fr);
   grid-template-rows: 6 repeat(1fr);
   grid-template-areas: ".logo" "main" "nav" "nav" ".carouselExampleAutoplaying" ".carouselExampleAutoplaying" ".bienvenida" ".bienvenida" ".descrip3" "." ".descrip2" "." ".descrip1" "." "footer" "footer";
   padding: 0px;
@@ -76,7 +76,7 @@ nav .menu a:hover {
 }
 
 .d-block {
-  height: 490px;
+  height: 30rem;
 }
 
 .bienvenida {
@@ -165,7 +165,7 @@ footer .footerimg {
   border: 2px salmon solid;
   font-family: Raleway;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 .Homenaje1 .items-abuelas1 {
   justify-items: right;
