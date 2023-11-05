@@ -160,14 +160,18 @@ footer .footerimg {
   margin-top: 100px;
 }
 
-.Homenaje1 {
+.homenaje {
+  justify-items: center;
+  margin: 5px;
+  overflow: auto;
   padding: 20px;
   border: 2px salmon solid;
   font-family: Raleway;
   font-weight: bold;
   font-size: 0.8rem;
 }
-.Homenaje1 .items-abuelas1 {
+
+.items-abuelas1 {
   justify-items: right;
 }
 
