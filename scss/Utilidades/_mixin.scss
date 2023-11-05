@@ -1,4 +1,6 @@
-@mixin estilo-parrafo($font,$text-color,$size,$ancho, $color, $style,$time){
+@mixin parrafo($font,$text-color,$size,$ancho, $color, $style,$time) {
+
+
 
     font-family:$font;
     color: $text-color;

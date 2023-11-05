@@ -1,0 +1,22 @@
+//conexión mixin
+@import"../Utilidades/mixin";
+
+.origen{
+    justify-content: center;
+    @include parrafo(Raleway,black,20px,3px,violet, solid,2s);
+    justify-items: center;
+    overflow: auto;
+
+.mediaval{
+
+    justify-items: flex-end;
+    float: left;
+    margin: 5px;
+    padding: 10px;
+   
+
+
+}
+
+
+}

@@ -1,18 +1,216 @@
-/* Error: Undefined mixin.
- *   ,
- * 9 | @include estilo-parrafo (Raleway,black, 20px,2px,violet,solid,1s)
- *   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
- *   '
- *   scss\layout\_homenaje.scss 9:1  @import
- *   scss\style.scss 10:8            root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a   \2577 \a 9 \2502  @include estilo-parrafo (Raleway,black, 20px,2px,violet,solid,1s)\d\a   \2502  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   scss\\layout\\_homenaje.scss 9:1  @import\a   scss\\style.scss 10:8            root stylesheet";
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap");
+body {
+  display: grid;
+  grid-template-columns: minmax(0.3fr 1fr) minmax(0.5fr 1fr);
+  grid-template-rows: 6 repeat(1fr);
+  grid-template-areas: ".logo" "main" "nav" "nav" ".carouselExampleAutoplaying" ".carouselExampleAutoplaying" ".bienvenida" ".bienvenida" ".descrip3" "." ".descrip2" "." ".descrip1" "." "footer" "footer";
+  padding: 0px;
 }
+
+.bienvenida {
+  justify-content: center;
+  background-color: rgb(244, 226, 248);
+}
+.bienvenida h2 {
+  text-align: center;
+  align-items: center;
+  font-family: Raleway;
+  padding-top: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.bienvenida h3 {
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: Raleway;
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  background: rgb(120, 9, 121);
+  background: linear-gradient(90deg, rgba(120, 9, 121, 0.868785014) 51%, rgb(163, 180, 67) 96%);
+}
+header .logo {
+  align-items: left;
+  justify-items: left;
+}
+header .logo:hover {
+  margin: 5px;
+  transition: all 1s;
+}
+header main {
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 20px;
+}
+header main h1 {
+  font-family: Alkatra;
+  font-size: 40px;
+  justify-content: center;
+  justify-items: center;
+}
+header main h1:hover {
+  font-size: 25px;
+  margin-right: 10px;
+  transition: 10s;
+}
+
+nav {
+  display: flexbox;
+  justify-content: center;
+  background-color: #F6CF2E;
+  align-items: flex-end;
+}
+nav .menu {
+  font-weight: bold;
+}
+nav .menu a {
+  text-decoration: none;
+  align-items: center;
+  margin: 15px;
+  position: center;
+  font-family: raleway;
+  color: rgb(7, 4, 27);
+  font-style: oblique;
+  justify-content: center;
+  font-weight: bold;
+}
+nav .menu a:hover {
+  margin: 5px;
+  transition: 1s;
+}
+
+.d-block {
+  height: 40rem;
+}
+
+.Descripción .descrip1 {
+  border: 2px solid rgb(132, 0, 255);
+  margin: 5px;
+  border-top-right-radius: 30%;
+  text-wrap: 100px;
+  padding: 45px;
+  background-image: url(../imagenes/fondohomenaje.jpg);
+}
+.Descripción .descrip1 .desc1 {
+  word-break: break-word;
+  line-break: normal;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  text-indent: 2;
+}
+.Descripción .descrip1 .desc1 .albaMirtha {
+  color: rgb(235, 136, 136);
+  font-weight: bold;
+}
+.Descripción .descrip1 .desc1 .amor {
+  color: rgb(247, 135, 135);
+  font-weight: bold;
+}
+.Descripción .descrip2 {
+  border: 2px solid rgb(132, 0, 255);
+  margin: 5px;
+  border-top-right-radius: 30%;
+  text-wrap: 100px;
+  padding: 45px;
+  margin-left: auto;
+  background-image: url(../imagenes/fondohomenaje.jpg);
+}
+.Descripción .descrip3 {
+  border: 2px solid rgb(132, 0, 255);
+  margin: 5px;
+  border-top-right-radius: 30%;
+  text-wrap: 100px;
+  padding: 45px;
+  background-image: url(../imagenes/fondohomenaje.jpg);
+}
+
+footer {
+  display: flex;
+  border-top: 2px solid blue;
+  background: rgb(67, 195, 34);
+  background: linear-gradient(52deg, rgb(67, 195, 34) 0%, rgba(179, 166, 41, 0.6474964986) 60%, rgb(253, 146, 45) 100%);
+  margin-top: 30px;
+}
+footer .encontranos {
+  font-size: 30px;
+  font-family: Raleway;
+  font-weight: bold;
+}
+footer .footerimg {
+  margin: 10px;
+  justify-content: end;
+  text-align: end;
+  justify-items: end;
+  margin-top: 100px;
+}
+
+.Homenaje1 {
+  justify-items: center;
+  overflow: auto;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 0.8rem;
+  border: 2px solid violet;
+  margin: 5px;
+  padding: 10px;
+}
+.Homenaje1 .items-abuelas1 {
+  justify-items: right;
+  float: right;
+}
+.Homenaje1 .Aprender {
+  justify-items: center;
+  overflow: auto;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 0.8rem;
+  word-break: break-word;
+  line-break: normal;
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+.Homenaje1 .Aprender .items-abuelas2 {
+  justify-items: left;
+  float: inline-end;
+  margin: 10px;
+}
+
+.origen {
+  justify-content: center;
+  font-family: Raleway;
+  color: black;
+  font-size: 20px;
+  margin: 10px;
+  border: 3px violet solid;
+  transition: 2s;
+  padding: 5px;
+  justify-items: center;
+  overflow: auto;
+}
+.origenhover {
+  cursor: pointer;
+  background-color: aquamarine;
+}
+.origen .mediaval {
+  justify-items: flex-end;
+  float: left;
+  margin: 5px;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
