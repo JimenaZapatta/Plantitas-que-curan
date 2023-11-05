@@ -1,6 +1,7 @@
 header{
     display:flex;
     
+    
     background: rgb(120,9,121);
     background: linear-gradient(90deg, rgba(120,9,121,0.8687850140056023) 51%, rgb(163, 180, 67) 96%);
     
@@ -18,12 +19,12 @@ main{
    
 justify-content: center;
     align-items: center;
-    padding: 10px;
     color:white;
-    margin-left: 30px;
+    margin-top: 20px;
 h1{
     font-family:Alkatra;
     font-size:  40px;
+    justify-content: center;
     justify-items: center;
     
 &:hover{
