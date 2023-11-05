@@ -1,10 +1,22 @@
-@mixin estilo-parrafo{
-justify-items: center;
-margin: 5px;
-overflow: auto;
-padding: 20px;
-border: 2px salmon solid;
-font-family:Raleway;
-font-weight:bold;
-font-size: 0.8rem;
+@mixin estilo-parrafo($font,$text-color,$size,$ancho, $color, $style,$time){
+
+    font-family:$font;
+    color: $text-color;
+    font-size:$size ;
+    margin: 10px ;
+    border:$ancho $color $style ;
+    transition: $time ;
+    padding: 5px ;
+    
+    &hover{
+       cursor: pointer;
+       background-color: aquamarine;
+
+    } 
+    
+
+
+
+
+
 }
