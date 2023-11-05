@@ -1,11 +1,13 @@
-@import "layout/body";
-@import "layout/general";
-@import"layout/header.scss";
-@import"fonts/fonts.scss";
-@import "layout/nav";
-@import"layout/carusel.scss";
-@import"layout/bienvenida.scss";
-@import"layout/descripción.scss";
-@import"layout/footer.scss";
-@import"layout/homenaje.scss";
-@import"utilidades/mixin.scss";
+@import "../scss/layout/body";
+@import "../scss/layout/bienvenida";
+@import "../scss/layout/general";
+@import"../scss/layout/header";
+@import "../scss/fonts/fonts.scss";
+@import "../scss/layout/nav";
+@import"../scss/layout/carusel";
+@import"../scss/layout/descripción";
+@import"../scss/layout/footer";
+@import"../scss/layout/homenaje";
+
+// mixin 
+@import"../scss/Utilidades/mixin";
