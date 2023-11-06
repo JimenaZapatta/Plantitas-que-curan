@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=&displaAlkatray=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap");
 body {
   display: grid;
@@ -212,6 +212,46 @@ footer .footerimg {
   float: left;
   margin: 5px;
   padding: 10px;
+}
+
+.variedades {
+  display: flex;
+  border: solid violet 2px;
+  margin: 5px;
+  padding: 10px;
+  font-family: alkatray;
+  font-size: 15px;
+  text-decoration: solid;
+}
+.variedades lu a {
+  text-decoration: none;
+  padding: 5px 5px 5px 0;
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+  background-color: coral;
+  margin: 5px;
+  padding: 10px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  line-height: 32px;
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-overflow: ellipsis;
+  text-decoration: solid;
+  color: darkblue;
+}
+.variedades lu a:hover {
+  opacity: 0.5;
+  -moz-opacity: 0.5;
+  filter: alpha opacity 50%;
+}
+.variedades lu a .uno {
+  margin: 15px;
+  padding: 15px;
+  font-family: Alkatray;
+  color: blue;
 }
 
 /*# sourceMappingURL=style.css.map */
