@@ -1,9 +1,11 @@
+
+
 .variedades{
     display: flex;
       border: solid violet 2px;
       margin: 5px;
       padding: 10px;
-      font-family: alkatray;
+      font-family: Alkatray;
       font-size: 15px;
       text-decoration: solid;
 
@@ -33,14 +35,16 @@ lu{
   opacity: 0.50;
   -moz-opacity: .50;
   filter:alpha (opacity 50%);
-}
-.uno{
+
+.unoa{
     margin: 15px;
     padding: 15px;
-    font-family: Alkatray;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: blue;
+    text-align: justify;
 
 }
     }
     }
+}
 }
