@@ -94,8 +94,8 @@ nav .menu a:hover {
   transition: 1s;
 }
 
-.carousel-item {
-  height: 10rem;
+.d-block {
+  height: 25rem;
 }
 
 .Descripción .descrip1 {
