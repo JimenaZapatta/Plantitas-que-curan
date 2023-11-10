@@ -1,27 +1,38 @@
 .Descripción{
     
-
+    
+.atra{
+    backdrop-filter:blur(120px);
+    width: 30%;
+    height: 50%;
+}
 
     .descrip1{
-        border: 2px solid rgb(132, 0, 255);
+        display: flex;
+        font-size: 70%;
+        color: white;
         margin: 5px;
-        border-top-right-radius: 30%;
         text-wrap: 100px;
         padding: 45px;
-      background-image: url(../imagenes/fondohomenaje.jpg);
+      background-image:linear-gradient(225deg, rgba(123,34,195,0.48783263305322133) 0%, rgba(179,41,169,0.8855917366946778) 60%, rgba(253,146,45,1) 100%); 
       .desc1{
+        width: 50%;
+        height: 30%;
+        padding: 3%;
         word-break: break-word;
         line-break: normal;
         hyphens: auto;
         overflow-wrap: break-word;
         text-indent: 2;
+        position: relative;
 .albaMirtha{ 
-    color: rgb(235, 136, 136);
+    color: rgb(236, 230, 230);
     font-weight: bold;
+    margin: 10%;
 }
 
 .amor{ 
-    color: rgb(247, 135, 135);
+    color: rgb(13, 3, 58);
     font-weight: bold;
 }
 }
