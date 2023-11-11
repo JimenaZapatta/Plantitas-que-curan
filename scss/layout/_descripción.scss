@@ -2,29 +2,33 @@
     
     
 .atra{
-    backdrop-filter:blur(120px);
-    width: 50%;
-    height: 50%;
+    width: 55%;
+    height: 70%;
+    float:left;
+
+ 
+
 }
 
     .descrip1{
         display: flex;
-        font-size: 70%;
+        font-size: 100%;
         color: white;
-        margin: 5px;
-        text-wrap: 100px;
-        padding: 45px;
-      background-image:linear-gradient(225deg, rgba(123,34,195,0.48783263305322133) 0%, rgba(179,41,169,0.8855917366946778) 60%, rgba(253,146,45,1) 100%); 
+        text-wrap: 30%;
+        padding: 5px;
+      background-image:linear-gradient(225deg, rgba(172, 111, 223, 0.488) 0%, rgba(212, 126, 207, 0.886) 60%, rgb(241, 215, 189) 100%); 
+      text-align: center;
+      
+      
       .desc1{
-        width: 50%;
-        height: 30%;
-        padding: 3%;
-        word-break: break-word;
-        line-break: normal;
-        hyphens: auto;
-        overflow-wrap: break-word;
-        text-indent: 2;
-        position: relative;
+        justify-content: center;
+        text-align: center;
+        text-justify: center;
+        text-wrap: 2%;
+        font-weight: bolder;
+
+       
+       
 .albaMirtha{ 
     color: rgb(236, 230, 230);
     font-weight: bold;
