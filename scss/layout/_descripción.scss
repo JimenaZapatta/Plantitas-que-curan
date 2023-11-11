@@ -40,7 +40,7 @@
         padding: 5%;
         font-size: 100%;
 
-
+      
        
        
 .albaMirtha{ 
@@ -53,16 +53,17 @@
     color: rgb(13, 3, 58);
     font-weight: bold;
 }
-}
-     
 
-    }
+}
+
+    
     .descrip2{
         display: flex;
         margin: 1%;
         text-wrap: 100px;
         background-color: rgb(255, 232, 127);
-        
+        padding: 7%;
+    
      
      .desc3{
         font-family: Raleway;
@@ -78,7 +79,9 @@
         white-space: pre wrap;
         width: 400px;
         height: 400px;
-        padding: 0.5rem;
+        padding: 1rem;
+       
+     }
         
         
 
@@ -87,27 +90,37 @@
 
      }
      .cuadro1{
+        
         margin: 2%;
         padding: 2%;
-        border: 1px salmon solid;
+       // border: 1px salmon solid;
         margin: 2px;
         
+     
+        
 .funo  {
-    width: 15rem;
+    width: 17rem;
     height: 10rem;
     margin: 2px;
 
 }
 .fdos {
-    width: 15rem;
+    width: 17rem;
     height: 10rem;
     margin: 2px;
 }
 .ftres{
-    width: 15rem;
+    width: 17rem;
     height: 10rem;
     margin: 2px;
      }
+
+     .fcuatro{
+        width: 17rem;
+        height: 10rem;
+        margin: 2px;
+         }
+
     }
 
 
@@ -124,6 +137,7 @@
      
 
     }    
+
 
 
 

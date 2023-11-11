@@ -141,13 +141,14 @@ nav .menu a:hover {
   color: rgb(13, 3, 58);
   font-weight: bold;
 }
-.Descripción .descrip2 {
+.Descripción .descrip1 .descrip2 {
   display: flex;
   margin: 1%;
   text-wrap: 100px;
   background-color: rgb(255, 232, 127);
+  padding: 7%;
 }
-.Descripción .descrip2 .desc3 {
+.Descripción .descrip1 .descrip2 .desc3 {
   font-family: Raleway;
   font-size: 1rem;
   font-style: oblique;
@@ -161,26 +162,30 @@ nav .menu a:hover {
   white-space: pre wrap;
   width: 400px;
   height: 400px;
-  padding: 0.5rem;
+  padding: 1rem;
 }
-.Descripción .descrip2 .cuadro1 {
+.Descripción .descrip1 .cuadro1 {
   margin: 2%;
   padding: 2%;
-  border: 1px salmon solid;
   margin: 2px;
 }
-.Descripción .descrip2 .cuadro1 .funo {
-  width: 15rem;
+.Descripción .descrip1 .cuadro1 .funo {
+  width: 17rem;
   height: 10rem;
   margin: 2px;
 }
-.Descripción .descrip2 .cuadro1 .fdos {
-  width: 15rem;
+.Descripción .descrip1 .cuadro1 .fdos {
+  width: 17rem;
   height: 10rem;
   margin: 2px;
 }
-.Descripción .descrip2 .cuadro1 .ftres {
-  width: 15rem;
+.Descripción .descrip1 .cuadro1 .ftres {
+  width: 17rem;
+  height: 10rem;
+  margin: 2px;
+}
+.Descripción .descrip1 .cuadro1 .fcuatro {
+  width: 17rem;
   height: 10rem;
   margin: 2px;
 }
