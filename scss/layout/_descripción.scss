@@ -24,7 +24,7 @@
         color: white;
         text-wrap: 30%;
         padding: 5px;
-      background-image:linear-gradient(225deg, rgba(123,34,195,0.48783263305322133) 0%, rgba(179,41,169,0.30575980392156865) 29%, rgba(253,146,45,1) 90%); 
+      background-image:linear-gradient(225deg, rgba(123,34,195,0.48783263305322133) 0%, rgba(179,41,169,0.30575980392156865) 29%, rgb(250, 161, 223) 90%); 
       justify-content: center;
       margin: 0.5rem;
       text-wrap: 1rem;
@@ -58,16 +58,58 @@
 
     }
     .descrip2{
-        border: 2px solid rgb(132, 0, 255);
-        margin: 5px;
-        border-top-right-radius: 30%;
+        display: flex;
+        margin: 1%;
         text-wrap: 100px;
-        padding: 45px;
-        margin-left: auto;
-        background-image: url(../imagenes/fondohomenaje.jpg);
+        background-color: rgb(255, 232, 127);
+        
      
-     
-     
+     .desc3{
+        font-family: Raleway;
+        font-size: 1rem;
+        font-style: oblique;
+        font-weight: bold;
+        justify-items: center;
+        text-align-last: center;
+        margin-right: 3%;
+        padding: 1%;
+        white-space: 1px;
+        line-break: loose;
+        white-space: pre wrap;
+        width: 400px;
+        height: 400px;
+        padding: 0.5rem;
+        
+        
+
+
+
+
+     }
+     .cuadro1{
+        margin: 2%;
+        padding: 2%;
+        border: 1px salmon solid;
+        margin: 2px;
+        
+.funo  {
+    width: 15rem;
+    height: 10rem;
+    margin: 2px;
+
+}
+.fdos {
+    width: 15rem;
+    height: 10rem;
+    margin: 2px;
+}
+.ftres{
+    width: 15rem;
+    height: 10rem;
+    margin: 2px;
+     }
+    }
+
 
     }
     .descrip3{
