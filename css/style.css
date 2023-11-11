@@ -141,14 +141,14 @@ nav .menu a:hover {
   color: rgb(13, 3, 58);
   font-weight: bold;
 }
-.Descripción .descrip1 .descrip2 {
+.Descripción .descrip2 {
   display: flex;
   margin: 1%;
   text-wrap: 100px;
   background-color: rgb(255, 232, 127);
-  padding: 7%;
+  padding: 5%;
 }
-.Descripción .descrip1 .descrip2 .desc3 {
+.Descripción .descrip2 .desc2 {
   font-family: Raleway;
   font-size: 1rem;
   font-style: oblique;
@@ -160,36 +160,37 @@ nav .menu a:hover {
   white-space: 1px;
   line-break: loose;
   white-space: pre wrap;
-  width: 400px;
+  width: 500px;
   height: 400px;
   padding: 1rem;
+  padding-top: 1%;
 }
-.Descripción .descrip1 .cuadro1 {
-  margin: 2%;
+.Descripción .cuadro1 {
   padding: 2%;
-  margin: 2px;
+  padding-left: 2%;
 }
-.Descripción .descrip1 .cuadro1 .funo {
+.Descripción .cuadro1 .funo {
   width: 17rem;
   height: 10rem;
   margin: 2px;
 }
-.Descripción .descrip1 .cuadro1 .fdos {
+.Descripción .cuadro1 .fdos {
   width: 17rem;
   height: 10rem;
   margin: 2px;
 }
-.Descripción .descrip1 .cuadro1 .ftres {
+.Descripción .cuadro1 .ftres {
   width: 17rem;
   height: 10rem;
   margin: 2px;
 }
-.Descripción .descrip1 .cuadro1 .fcuatro {
+.Descripción .cuadro1 .fcuatro {
   width: 17rem;
   height: 10rem;
   margin: 2px;
 }
-.Descripción .descrip3 {
+
+.descrip3 {
   border: 2px solid rgb(132, 0, 255);
   margin: 5px;
   border-top-right-radius: 30%;

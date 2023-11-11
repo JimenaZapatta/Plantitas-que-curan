@@ -52,20 +52,20 @@
 .amor{ 
     color: rgb(13, 3, 58);
     font-weight: bold;
+}      
 }
 
 }
-
     
     .descrip2{
         display: flex;
         margin: 1%;
         text-wrap: 100px;
         background-color: rgb(255, 232, 127);
-        padding: 7%;
+        padding: 5%;
     
      
-     .desc3{
+     .desc2{
         font-family: Raleway;
         font-size: 1rem;
         font-style: oblique;
@@ -77,9 +77,10 @@
         white-space: 1px;
         line-break: loose;
         white-space: pre wrap;
-        width: 400px;
+        width: 500px;
         height: 400px;
         padding: 1rem;
+        padding-top: 1%;
        
      }
         
@@ -91,10 +92,11 @@
      }
      .cuadro1{
         
-        margin: 2%;
+        //margin: 1%;
         padding: 2%;
        // border: 1px salmon solid;
-        margin: 2px;
+       padding-left: 2%;
+     
         
      
         
@@ -142,4 +144,3 @@
 
 
 
-}
