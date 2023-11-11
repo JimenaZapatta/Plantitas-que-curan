@@ -10,6 +10,7 @@ body {
   grid-template-rows: 6 repeat(1fr);
   grid-template-areas: ".logo" "main" "nav" "nav" ".carouselExampleAutoplaying" ".carouselExampleAutoplaying" ".bienvenida" ".bienvenida" ".descrip3" "." ".descrip2" "." ".descrip1" "." "footer" "footer";
   padding: 0px;
+  background-image: linear-gradient(281deg, rgba(161, 157, 134, 0.1264880952) 32%, rgb(255, 214, 0) 44%);
 }
 
 .bienvenida {
@@ -100,30 +101,41 @@ nav .menu a:hover {
 }
 
 .Descripción .atra {
-  width: 55%;
-  height: 70%;
-  float: left;
+  width: 10rem;
+  height: 100%;
+  margin-top: 2rem;
+  margin-right: 1.5rem;
+  text-wrap: 1em;
+}
+.Descripción .atra:hover {
+  margin: 1rem;
+  transition: 3s;
 }
 .Descripción .descrip1 {
   display: flex;
-  font-size: 100%;
+  font-size: 1rem;
   color: white;
   text-wrap: 30%;
   padding: 5px;
-  background-image: linear-gradient(225deg, rgba(172, 111, 223, 0.488) 0%, rgba(212, 126, 207, 0.886) 60%, rgb(241, 215, 189) 100%);
-  text-align: center;
+  background-image: linear-gradient(225deg, rgba(123, 34, 195, 0.4878326331) 0%, rgba(179, 41, 169, 0.3057598039) 29%, rgb(253, 146, 45) 90%);
+  justify-content: center;
+  margin: 0.5rem;
+  text-wrap: 1rem;
 }
 .Descripción .descrip1 .desc1 {
-  justify-content: center;
   text-align: center;
   text-justify: center;
   text-wrap: 2%;
   font-weight: bolder;
+  overflow: auto;
+  justify-items: center;
+  padding: 5%;
+  font-size: 100%;
 }
 .Descripción .descrip1 .desc1 .albaMirtha {
   color: rgb(236, 230, 230);
   font-weight: bold;
-  margin: 10%;
+  margin: 1%;
 }
 .Descripción .descrip1 .desc1 .amor {
   color: rgb(13, 3, 58);
