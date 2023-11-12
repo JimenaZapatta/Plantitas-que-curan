@@ -8,7 +8,7 @@ body {
   display: grid;
   grid-template-columns: minmax(0.3fr 1fr) minmax(0.5fr 1fr);
   grid-template-rows: 6 repeat(1fr);
-  grid-template-areas: ".logo" "main" "nav" "nav" ".carouselExampleAutoplaying" ".carouselExampleAutoplaying" ".bienvenida" ".bienvenida" ".descrip3" "." ".descrip2" "." ".descrip1" "." "footer" "footer";
+  grid-template-areas: ".logo" "main" "nav" "nav" ".carouselExampleAutoplaying" ".carouselExampleAutoplaying" ".bienvenida" ".bienvenida" ".descrip1" "." ".descrip2" ".descrip2" ".descrip3" "." "footer" "footer";
   padding: 0px;
   background-image: linear-gradient(281deg, rgba(161, 157, 134, 0.1264880952) 32%, rgb(255, 214, 0) 44%);
 }
@@ -114,10 +114,10 @@ nav .menu a:hover {
 .Descripción .descrip1 {
   display: flex;
   font-size: 1rem;
-  color: white;
+  color: rgb(34, 33, 33);
   text-wrap: 30%;
   padding: 5px;
-  background-image: linear-gradient(225deg, rgba(123, 34, 195, 0.4878326331) 0%, rgba(179, 41, 169, 0.3057598039) 29%, rgb(250, 161, 223) 90%);
+  background-color: rgb(245, 173, 245);
   justify-content: center;
   margin: 0.5rem;
   text-wrap: 1rem;
@@ -133,7 +133,7 @@ nav .menu a:hover {
   font-size: 100%;
 }
 .Descripción .descrip1 .desc1 .albaMirtha {
-  color: rgb(236, 230, 230);
+  color: rgb(241, 103, 218);
   font-weight: bold;
   margin: 1%;
 }
@@ -147,6 +147,8 @@ nav .menu a:hover {
   text-wrap: 100px;
   background-color: rgb(255, 232, 127);
   padding: 5%;
+  justify-content: center;
+  align-items: center;
 }
 .Descripción .descrip2 .desc2 {
   font-family: Raleway;
@@ -155,7 +157,7 @@ nav .menu a:hover {
   font-weight: bold;
   justify-items: center;
   text-align-last: center;
-  margin-right: 3%;
+  margin-left: 4%;
   padding: 1%;
   white-space: 1px;
   line-break: loose;
@@ -163,31 +165,41 @@ nav .menu a:hover {
   width: 500px;
   height: 400px;
   padding: 1rem;
-  padding-top: 1%;
 }
 .Descripción .cuadro1 {
   padding: 2%;
   padding-left: 2%;
+  margin-left: 3%;
+  justify-items: center;
+  justify-content: center;
 }
 .Descripción .cuadro1 .funo {
   width: 17rem;
   height: 10rem;
   margin: 2px;
+  justify-items: center;
+  align-items: center;
 }
 .Descripción .cuadro1 .fdos {
   width: 17rem;
   height: 10rem;
   margin: 2px;
+  justify-content: center;
+  justify-items: center;
 }
 .Descripción .cuadro1 .ftres {
   width: 17rem;
   height: 10rem;
   margin: 2px;
+  justify-content: center;
+  justify-items: center;
 }
 .Descripción .cuadro1 .fcuatro {
   width: 17rem;
   height: 10rem;
   margin: 2px;
+  justify-content: center;
+  justify-items: center;
 }
 
 .descrip3 {
