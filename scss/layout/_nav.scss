@@ -1,15 +1,16 @@
 nav {
-    display: flex;
+    display: block;
     justify-content: center;
     background-color: #F6CF2E; 
     align-items: center;
     justify-items: center;
-    padding: 10%;
+    padding: 1%;
     
     
 .menu{   
     
     font-weight: bold;
+    
 
 a{ 
 
@@ -23,11 +24,20 @@ a{
     justify-content: center;
     font-weight: bold;
     padding: 5px;
+    width: 80%;
+    height: 10%;
     
 
     &:hover{ margin: 5px;
     transition: 1s;
     }
+
+
+    }
+
+    .container-fluid{
+        width: 10px;
+        height: 2px;
     }
 }
 }
