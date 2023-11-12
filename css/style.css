@@ -57,12 +57,16 @@ header main {
   align-items: center;
   color: white;
   margin-top: 20px;
+  width: 70%;
+  height: 30%;
+  justify-items: center;
 }
 header main h1 {
   font-family: Alkatra;
   font-size: 40px;
   justify-content: center;
   justify-items: center;
+  padding: 5%;
 }
 header main h1:hover {
   font-size: 25px;
