@@ -1,13 +1,16 @@
 nav {
-    display: flexbox;
+    display: flex;
     justify-content: center;
     background-color: #F6CF2E; 
-    align-items: flex-end;
+    align-items: center;
+    justify-items: center;
+    padding: 10%;
     
     
 .menu{   
     
     font-weight: bold;
+
 a{ 
 
     text-decoration: none;  
