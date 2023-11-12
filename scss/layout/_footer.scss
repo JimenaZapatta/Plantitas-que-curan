@@ -3,23 +3,46 @@ footer{
     border-top: 2px solid blue;
     background: rgb(67,195,34);
     background: linear-gradient(52deg, rgba(67,195,34,1) 0%, rgba(179,166,41,0.6474964985994398) 60%, rgba(253,146,45,1) 100%);
-    margin-top: 30px;
+    
+    
+
+    .duende{
+        justify-items: left;
+        width: 5rem;
+        height: 10rem;
+        margin: 5%;
+        
+    }
     
 
     .encontranos{
+     justify-items: center;   
      font-size: 30px;
      font-family:Raleway;
      font-weight:bold;
+     margin: 5%;
+     margin-top: 10%;
+     margin-left: 10%;
+     
 
 
     }
     .footerimg{
-        margin:10px;
+        display: flex;
         justify-content: end;
         text-align: end;
         justify-items: end;
-        margin-top: 100px;
-
+        margin-top: 15%;
+        
+        
+     
+        .red{  
+    
+    width: 2rem;
+    height:2rem;
+    margin: 5%;
+    
+}
 
         
     }
