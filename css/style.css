@@ -170,47 +170,45 @@ nav .menu .container-fluid {
   font-weight: bolder;
   justify-items: center;
   text-align-last: center;
-  margin-left: 4%;
-  padding: 1%;
+  margin-left: 1%;
+  padding: 5%;
   white-space: 1px;
   line-break: loose;
   white-space: pre wrap;
   width: 50%;
   height: 50%;
-  margin-top: 6%;
+  margin-top: 2%;
 }
 .Descripción .cuadro1 {
-  padding: 2%;
+  padding: 1%;
   padding-left: 2%;
   justify-items: center;
   justify-content: center;
-  height: 50%;
-  width: 50%;
 }
 .Descripción .cuadro1 .funo {
-  width: 13rem;
-  height: 9rem;
+  width: 10rem;
+  height: 6rem;
   margin: 2px;
   justify-items: center;
   align-items: center;
 }
 .Descripción .cuadro1 .fdos {
-  width: 13rem;
-  height: 9rem;
+  width: 10rem;
+  height: 6rem;
   margin: 2px;
   justify-content: center;
   justify-items: center;
 }
 .Descripción .cuadro1 .ftres {
-  width: 13rem;
-  height: 9rem;
+  width: 10rem;
+  height: 6rem;
   margin: 2px;
   justify-content: center;
   justify-items: center;
 }
 .Descripción .cuadro1 .fcuatro {
-  width: 13rem;
-  height: 9rem;
+  width: 10rem;
+  height: 6rem;
   margin: 2px;
   justify-content: center;
   justify-items: center;
@@ -256,7 +254,7 @@ footer .duende {
 }
 footer .encontranos {
   justify-items: center;
-  font-size: 30px;
+  font-size: 1rem;
   font-family: Raleway;
   font-weight: bold;
   margin: 5%;
