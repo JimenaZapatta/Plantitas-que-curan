@@ -10,7 +10,7 @@ body {
   grid-template-rows: 6 repeat(1fr);
   grid-template-areas: ".logo" "main" "nav" "nav" ".carouselExampleAutoplaying" ".carouselExampleAutoplaying" ".bienvenida" ".bienvenida" ".descrip1" "." ".descrip2" ".descrip2" ".descrip3" "." "footer" "footer";
   padding: 0px;
-  background-image: linear-gradient(281deg, rgba(161, 157, 134, 0.1264880952) 32%, rgb(255, 214, 0) 44%);
+  background-image: linear-gradient(231deg, rgb(228, 250, 110) 0%, rgb(210, 216, 221) 100%);
 }
 
 .bienvenida {
@@ -145,16 +145,16 @@ nav .menu a:hover {
   display: flex;
   margin: 1%;
   text-wrap: 100px;
-  background-color: rgb(255, 232, 127);
-  padding: 5%;
+  background-color: rgb(250, 238, 185);
+  padding: 2%;
   justify-content: center;
-  align-items: center;
+  border: 3px solid green;
+  border-radius: 2%;
 }
 .Descripción .descrip2 .desc2 {
-  font-family: Raleway;
   font-size: 1rem;
   font-style: oblique;
-  font-weight: bold;
+  font-weight: bolder;
   justify-items: center;
   text-align-last: center;
   margin-left: 4%;
@@ -162,41 +162,42 @@ nav .menu a:hover {
   white-space: 1px;
   line-break: loose;
   white-space: pre wrap;
-  width: 500px;
-  height: 400px;
-  padding: 1rem;
+  width: 50%;
+  height: 50%;
+  margin-top: 6%;
 }
 .Descripción .cuadro1 {
   padding: 2%;
   padding-left: 2%;
-  margin-left: 3%;
   justify-items: center;
   justify-content: center;
+  height: 50%;
+  width: 50%;
 }
 .Descripción .cuadro1 .funo {
-  width: 17rem;
-  height: 10rem;
+  width: 13rem;
+  height: 9rem;
   margin: 2px;
   justify-items: center;
   align-items: center;
 }
 .Descripción .cuadro1 .fdos {
-  width: 17rem;
-  height: 10rem;
+  width: 13rem;
+  height: 9rem;
   margin: 2px;
   justify-content: center;
   justify-items: center;
 }
 .Descripción .cuadro1 .ftres {
-  width: 17rem;
-  height: 10rem;
+  width: 13rem;
+  height: 9rem;
   margin: 2px;
   justify-content: center;
   justify-items: center;
 }
 .Descripción .cuadro1 .fcuatro {
-  width: 17rem;
-  height: 10rem;
+  width: 13rem;
+  height: 9rem;
   margin: 2px;
   justify-content: center;
   justify-items: center;
