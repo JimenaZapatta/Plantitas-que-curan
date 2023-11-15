@@ -215,12 +215,12 @@ footer {
   border-top: 2px solid blue;
   background: rgb(67, 195, 34);
   background: linear-gradient(52deg, rgb(67, 195, 34) 0%, rgba(179, 166, 41, 0.6474964986) 60%, rgb(253, 146, 45) 100%);
-}
-footer .duende {
-  justify-items: left;
-  width: 5rem;
+  width: 100%;
   height: 10rem;
-  margin: 5%;
+}
+footer .duendeuno {
+  width: 10rem;
+  height: 10rem;
 }
 footer .encontranos {
   justify-items: center;
@@ -228,20 +228,18 @@ footer .encontranos {
   font-family: Raleway;
   font-weight: bold;
   margin: 5%;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 10%;
 }
-footer .footerimg {
+footer .red {
   display: flex;
-  justify-content: end;
-  text-align: end;
+  margin: 2%;
+  justify-items: right;
+  width: 30px;
+  height: 30px;
   justify-items: end;
-  margin-top: 15%;
-}
-footer .footerimg .red {
-  width: 2rem;
-  height: 2rem;
-  margin: 5%;
+  margin-top: 9%;
+  margin-right: 6%;
 }
 
 .Homenaje1 {
