@@ -172,6 +172,7 @@ nav .menu .container-fluid {
   width: 28rem;
   height: 20;
   justify-content: left;
+  font-weight: bold;
 }
 .Descripción .descrip2 .funo {
   width: 10rem;
