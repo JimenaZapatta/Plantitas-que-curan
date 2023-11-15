@@ -155,65 +155,28 @@ nav .menu .container-fluid {
 }
 .Descripción .descrip2 {
   display: flex;
-  margin: 1%;
-  text-wrap: 100px;
-  background-color: rgb(250, 238, 185);
-  padding: 3%;
-  justify-content: center;
-  border: 3px solid green;
+  border: 5px solid rgb(33, 109, 16);
   border-radius: 2%;
+  margin: 5px;
+  padding: 2%;
+  background-color: rgb(232, 235, 36);
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
 }
 .Descripción .descrip2 .desc2 {
-  font-size: 1rem;
-  font-style: oblique;
-  font-weight: bolder;
-  justify-items: center;
-  text-align-last: center;
-  padding: 5%;
-  white-space: 1px;
-  line-break: loose;
-  white-space: pre wrap;
-  width: 50%;
-  height: 50%;
-  margin-top: 2%;
-}
-.Descripción .cuadro1 {
+  margin: 5px;
   padding: 2%;
-  padding-left: 1%;
-  justify-items: center;
-  justify-content: center;
-  width: 50%;
-  height: 50%;
-  text-wrap: 10%;
+  text-align: left;
+  text-wrap: 1%;
+  width: 28rem;
+  height: 20;
+  justify-content: left;
 }
-.Descripción .cuadro1 .funo {
-  width: 11.1rem;
+.Descripción .descrip2 .funo {
+  width: 10rem;
   height: 7rem;
-  margin: 2px;
-  justify-items: center;
-  align-items: center;
-  padding: 1%;
-}
-.Descripción .cuadro1 .fdos {
-  width: 11.1rem;
-  height: 7rem;
-  margin: 2px;
-  justify-content: center;
-  justify-items: center;
-}
-.Descripción .cuadro1 .ftres {
-  width: 11.1rem;
-  height: 7rem;
-  margin: 2px;
-  justify-content: center;
-  justify-items: center;
-}
-.Descripción .cuadro1 .fcuatro {
-  width: 11.1rem;
-  height: 7rem;
-  margin: 2px;
-  justify-content: center;
-  justify-items: center;
+  margin: 3%;
 }
 
 .descrip3 {
