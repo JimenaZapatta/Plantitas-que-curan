@@ -41,6 +41,8 @@ body {
 
 header {
   display: flex;
+  width: 100%;
+  height: 10rem;
   background: rgb(120, 9, 121);
   background: linear-gradient(90deg, rgba(120, 9, 121, 0.868785014) 51%, rgb(163, 180, 67) 96%);
 }
@@ -231,90 +233,18 @@ footer .encontranos {
   margin-top: 2%;
   margin-left: 10%;
 }
-footer .red {
+footer .redes {
   display: flex;
   margin: 1%;
-  justify-items: right;
-  width: 1rem;
-  height: 1rem;
-  justify-items: end;
-  margin-top: 9%;
-  margin-right: 15%;
-  margin-bottom: 2%;
-}
-
-footer {
-  display: flex;
-  border-top: 2px solid blue;
-  background: rgb(67, 195, 34);
-  background: linear-gradient(52deg, rgb(67, 195, 34) 0%, rgba(179, 166, 41, 0.6474964986) 60%, rgb(253, 146, 45) 100%);
-  width: 100%;
-  height: 10rem;
-}
-footer .duendeuno {
-  width: 10rem;
-  height: 10rem;
-}
-footer .encontranos {
-  justify-items: center;
-  font-size: 1rem;
-  font-family: Raleway;
-  font-weight: bold;
-  margin: 5%;
-  margin-top: 2%;
-  margin-left: 10%;
-}
-footer .red {
-  display: flex;
-  margin: 1%;
-  justify-items: right;
-  width: 1rem;
-  height: 1rem;
-  justify-items: end;
-  margin-top: 9%;
-  margin-right: 15%;
-  margin-bottom: 2%;
-}
-
-nav {
-  display: block;
-  justify-content: center;
-  background-color: #F6CF2E;
-  align-items: center;
-  justify-items: center;
-  padding: 1%;
-}
-nav .menu {
-  font-weight: bold;
-}
-nav .menu a {
-  text-decoration: none;
-  align-items: center;
-  margin: 15px;
-  position: center;
-  font-family: raleway;
-  color: rgb(7, 4, 27);
-  font-style: oblique;
-  justify-content: center;
-  font-weight: bold;
-  padding: 5px;
-  width: 80%;
-  height: 10%;
-}
-nav .menu a:hover {
-  margin: 5px;
-  transition: 1s;
-}
-nav .menu .container-fluid {
-  width: 10px;
-  height: 2px;
+  width: 2rem;
+  height: 2rem;
+  margin-top: 0.5rem;
+  justify-content: right;
+  margin-right: 1rem;
 }
 
 .bodyh {
-  display: grid;
-  grid-template-columns: minmax(0.3fr 1fr) minmax(0.3fr 1fr);
-  grid-template-rows: 4 repeat(1fr);
-  grid-template-areas: ".logo" "main" "nav" "nav" ".Homenaje1" ".Homenaje1" "footer" "footer";
+  border: 2px solid blue;
   padding: 0px;
   background-image: linear-gradient(231deg, rgb(250, 227, 247) 0%, rgb(210, 216, 221) 100%);
 }
