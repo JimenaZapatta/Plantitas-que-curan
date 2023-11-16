@@ -1,5 +1,22 @@
 
 
+.bodyh{
+
+    display: grid;
+    grid-template-columns: minmax(0.3fr 1fr)minmax(0.3fr 1fr);
+    grid-template-rows: 4 repeat(1fr);
+    grid-template-areas: 
+     
+    ".logo" "main"
+    "nav" "nav"
+   ".Homenaje1" "."
+    "footer" "footer"
+    ;
+    //border: 2px solid blue;
+    padding: 0px;
+    background-image:linear-gradient(231deg, rgb(247, 239, 246) 0%, rgba(210,216,221,1) 100%);
+
+
     .Homenaje1{
         justify-items: center;
         overflow: auto;
@@ -16,9 +33,12 @@
     
 
     
-    .items-abuelas1{
+    .items-abuelas{
         justify-items: right;
         float:right;
+        width: 9rem;
+        height: 13rem;
+        
             }
 .Aprender{
 
@@ -40,3 +60,4 @@ justify-items: center;
             }
         }
     }
+}

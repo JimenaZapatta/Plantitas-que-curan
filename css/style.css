@@ -145,7 +145,7 @@ nav .menu .container-fluid {
   padding: 5%;
 }
 .Descripción .descrip1 .desc1 .albaMirtha {
-  color: rgb(241, 103, 218);
+  color: rgb(247, 239, 245);
   font-weight: bold;
   margin: 1%;
 }
@@ -239,10 +239,19 @@ footer .red {
   height: 30px;
   justify-items: end;
   margin-top: 9%;
-  margin-right: 6%;
+  margin-right: 10%;
+  margin-bottom: 2%;
 }
 
-.Homenaje1 {
+.bodyh {
+  display: grid;
+  grid-template-columns: minmax(0.3fr 1fr) minmax(0.3fr 1fr);
+  grid-template-rows: 4 repeat(1fr);
+  grid-template-areas: ".logo" "main" "nav" "nav" ".Homenaje1" "." "footer" "footer";
+  padding: 0px;
+  background-image: linear-gradient(231deg, rgb(247, 239, 246) 0%, rgb(210, 216, 221) 100%);
+}
+.bodyh .Homenaje1 {
   justify-items: center;
   overflow: auto;
   font-family: Raleway;
@@ -252,11 +261,13 @@ footer .red {
   margin: 5px;
   padding: 10px;
 }
-.Homenaje1 .items-abuelas1 {
+.bodyh .Homenaje1 .items-abuelas {
   justify-items: right;
   float: right;
+  width: 9rem;
+  height: 13rem;
 }
-.Homenaje1 .Aprender {
+.bodyh .Homenaje1 .Aprender {
   justify-items: center;
   overflow: auto;
   font-family: Raleway;
@@ -267,7 +278,7 @@ footer .red {
   hyphens: auto;
   overflow-wrap: break-word;
 }
-.Homenaje1 .Aprender .items-abuelas2 {
+.bodyh .Homenaje1 .Aprender .items-abuelas2 {
   justify-items: left;
   float: inline-end;
   margin: 10px;
