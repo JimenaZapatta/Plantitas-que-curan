@@ -9,14 +9,18 @@
      
     ".logo" "main"
     "nav" "nav"
-   ".Homenaje1" "."
+   ".Homenaje1" ".Homenaje1"
     "footer" "footer"
     ;
     //border: 2px solid blue;
     padding: 0px;
-    background-image:linear-gradient(231deg, rgb(247, 239, 246) 0%, rgba(210,216,221,1) 100%);
+    background-image:linear-gradient(231deg, rgb(250, 227, 247) 0%, rgba(210,216,221,1) 100%);
 
-
+.h1h{
+    justify-content: center;
+    font-size: 1.5rem;
+    padding: 1px;
+}
     .Homenaje1{
         justify-items: center;
         overflow: auto;
@@ -25,7 +29,9 @@
         font-size: 0.8rem;
         border: 2px solid violet;
         margin: 5px;
-        padding: 10px; 
+        padding: 10px;
+        width: 100%;
+        height: 60; 
 
 
         
@@ -57,6 +63,16 @@ justify-items: center;
         justify-items: left;
         float: inline-end;
         margin: 10px;
+        .items-abuelass{
+
+            width: 10rem;
+            height: 10rem;
+        }
+        .canasta{
+            width: 1rem;
+            height: 1rem; 
+            
+        }
             }
         }
     }
